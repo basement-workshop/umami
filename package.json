@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm-run-all build-tracker build-lang build-geo build-db build-app",
-    "start": "next start",
+    "start": "next start -p 3003",
     "start-env": "node -r dotenv/config scripts/start-env.js",
     "build-app": "next build",
     "build-tracker": "rollup -c rollup.tracker.config.js",
